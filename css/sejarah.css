@@ -308,7 +308,7 @@ footer {
   color: #fff;
 }
 
-media (min-width: 992px) {
+@media (min-width: 992px) {
   .nav-link:hover::after {
     content: '';
     display: block;
