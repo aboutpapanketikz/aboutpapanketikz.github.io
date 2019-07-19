@@ -308,6 +308,17 @@ footer {
   color: #fff;
 }
 
+media (min-width: 992px) {
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid  white;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 3px;
+    margin-bottom: -6px;
+  }
+}
 
 @media (max-width: 767.98px) {
 
